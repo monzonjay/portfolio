@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        nav {
+          list-style-type: none;
+          margin: 0;
+          overflow: hidden;
+          background-color: #333;
+          padding: 9px;
+        }
+        
+        nav a {
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        nav a:hover {
+          background-color: #111;
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">INDEX</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="about.html">ABOUT</a>
+        <a href="projects.html">PROJECTS</a>
+    </nav> 
+    <h1>Contact Us</h1>
+    <form action="" method="POST">
+      <h2>Register Now</h2>
+      <h3>Basic Information</h3>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder=John autofocus required><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder=Doe required><br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phnumber">Phone Number:</label><br>
+        <input type="tel" id="phnumber" name="phnumber"><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br>
+       
+      <h3>Interests</h3>
+      <h4>Select the type of inquiry you're interested in<h4>
+        <input type="checkbox" id="inquiry1" name="inquiry1" value="consult">
+        <label for="inquiry1">I would like to book a consultation</label><br>
+        <input type="checkbox" id="inquiry2" name="inquiry2" value="Booking">
+        <label for="inquiry2"> I would like to book a tattoo appointment</label><br>
+        <input type="checkbox" id="inquiry3" name="inquiry3" value="Info">
+        <label for="inquiry3"> I would just like basic information</label><br><br>
+
+      <h4>Select the type of tattoo/tattooing style(s) you are interested in</h4>
+        <input type="radio" id="phtoreal" name="phtoreal" value="Photo Realism">
+        <label for="bng">Photo Realism</label><br>
+         <select id="phtorealsubg">
+         <option>Choose Type</option>
+         <option value="Full Color">Full Color</option>
+         <option value="Minimal Color">Minimal Color</option>
+         <option value="Black & Grey">Black & grey</option>
+         <option value="Dark Work">Dark Work</option>
+         <option value="Light Work">Light Work</option>
+         </select><br>
+         <input type="radio" id="ametrad" name="ametrad" value="American Traditional">
+         <label for="color">American Traditional <em>Classic Americana</em></label><br>
+         <select id=ametradsublist>
+         <option>Choose Type</option>
+         <option value="Full Color">Full Color</option>
+         <option value="Minimal Color">Minimal Color</option>
+         <option value="Black & Grey">Black & grey</option>
+         <option value="Dark Work">Dark Work</option>
+         <option value="Light Work">Light Work</option>
+         </select><br>
+         <input type="radio" id="japtrad" name="japtrad"                                                       value="Japanese traditional">
+         <label for="japtrad">Japanese Traditional <em>Irezumi</em></label><br>
+         <select id=japtradsublist>
+         <option>Choose Type</option>
+         <option value="Full Color">Full Color</option>
+         <option value="Minimal Color">Minimal Color</option>
+         <option value="Black & Grey">Black & grey</option>
+         <option value="Dark Work">Dark Work</option>
+         <option value="Light Work">Light Work</option>
+         </select><br>
+         <input type="radio" id="trbl" name="Trbl"                                                              value="Tribal">
+         <label for="trbl">Tribal</label><br>
+         <select id="trblsublist">
+         <option value="Polynesian">Polynesian</option>
+         <option value="Native American">Native American</option>
+         <option value="Scandanvian">Scandanavian (Norse/Viking)</option>
+     </select><br>
+     <input type="submit" value="Submit">
+     <input type="reset">
+  </form> 
+</body>
+</html>
